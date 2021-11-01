@@ -1,6 +1,7 @@
 # runthis
 Tired of your experiments becoming a mess? 
-Don't want to pay $20,000 a year for a data science platform that versions code and parameters, etc? 
+Don't want to pay $20,000 a year for a data science platform?
+Here's your poor man's version. 
 
 ### Examples
 See [examples](https://github.com/microprediction/runthis/blob/main/examples/mean_info_max_shgo%3Fn%3D5%26d%3Dcat%26init%3D%5B0.2%2C0.2%2C0.2%5D.py)
