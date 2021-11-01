@@ -1,4 +1,4 @@
-# runthis
+# runthis ![tests](https://github.com/microprediction/runthis/workflows/tests/badge.svg) ![deploy-pypi](https://github.com/microprediction/runthis/workflows/deploy-pypi/badge.svg)
 Tired of your data science experiments becoming a mess? 
 Don't want to pay $20,000 a year for a data science platform?
 Here's your poor man's version. 
