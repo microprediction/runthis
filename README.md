@@ -26,3 +26,5 @@ Just call the experiment file
     my_function?n=int:5&d=cat&init=[float:0.2,float:0.2,float:0.2].py
 
 instead
+
+![](https://github.com/microprediction/runthis/blob/main/images/run_this.png)
