@@ -3,8 +3,6 @@ Tired of your experiments becoming a mess?
 Don't want to pay $20,000 a year for a data science platform?
 Here's your poor man's version. 
 
-### Examples
-See [examples](https://github.com/microprediction/runthis/blob/main/examples/mean_info_max_shgo%3Fn%3D5%26d%3Dcat%26init%3D%5B0.2%2C0.2%2C0.2%5D.py)
 
 ### Usage
 Name your experiment files like this: 
@@ -26,5 +24,8 @@ Just call the experiment file
     my_function?n=int:5&d=cat&init=[float:0.2,float:0.2,float:0.2].py
 
 instead
+
+### Example 
+See [here](https://github.com/microprediction/runthis/blob/main/examples/mean_info_max_shgo%3Fn%3D5%26d%3Dcat%26init%3D%5B0.2%2C0.2%2C0.2%5D.py)
 
 ![](https://github.com/microprediction/runthis/blob/main/images/run_this.png)
