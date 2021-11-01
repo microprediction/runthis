@@ -1,10 +1,13 @@
 # runthis
-Mini-package to make it trivial to track experiments
+Tired of your experiments becoming a mess? Me too. I finally adopted the policy of making all my experiment files the same, and changing only the name of the file. 
+
+### Examples
+See [examples](https://github.com/microprediction/runthis/blob/main/examples/mean_info_max_shgo%3Fn%3D5%26d%3Dcat%26init%3D%5B0.2%2C0.2%2C0.2%5D.py)
 
 ### Usage
-Name your experiment files 
+Name your experiment files like this: 
 
-     my_function?n=5&d=cat&init=[0.2,0.2,0.2]).py
+     my_function?n=5&d=cat&init=[0.2,0.2,0.2].py
     
 Then your experiment file looks like this: 
 
