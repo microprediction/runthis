@@ -11,13 +11,16 @@ Name your experiment files like this:
     
 Then your experiment file looks like this: 
 
+
         if __name__=='__main__':
             import os
             kwargs = parse_kwargs(__file__.split(os.path.sep)[-1])
             my_experiment(**kwargs)
 
+
 This way what you do in the experiment never gets out of sync with the code. 
-   
+
+
 ### Int, Float
 Just call the experiment file 
 
