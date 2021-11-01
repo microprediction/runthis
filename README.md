@@ -7,15 +7,15 @@ Here's your poor man's version.
 ### Usage
 Name your experiment files like this: 
 
-     my_function?n=5&d=cat&init=[0.2,0.2,0.2].py
+       my_function?n=5&d=cat&init=[0.2,0.2,0.2].py
     
 Then your experiment file looks like this: 
 
-   if __name__=='__main__':
-       import os
-       kwargs = parse_kwargs(__file__.split(os.path.sep)[-1])
-       my_experiment(**kwargs)
-        
+        if __name__=='__main__':
+            import os
+            kwargs = parse_kwargs(__file__.split(os.path.sep)[-1])
+            my_experiment(**kwargs)
+
 This way what you do in the experiment never gets out of sync with the code. 
    
 ### Int, Float
