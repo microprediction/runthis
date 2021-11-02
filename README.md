@@ -1,14 +1,16 @@
 # runthis ![tests](https://github.com/microprediction/runthis/workflows/tests/badge.svg) ![deploy-pypi](https://github.com/microprediction/runthis/workflows/deploy-pypi/badge.svg)
 
-Helps you run a script where 
+Trivial utility to help you arrange experiments like this: 
+
+![](https://github.com/microprediction/runthis/blob/main/images/directory.png)
 
 
-### Usage
-Name your experiment files like this: 
 
-       my_function?n=5&d=cat&init=[0.2,0.2,0.2].py
-    
-Then your experiment file looks like this: 
+Don't want to do that? Thanks for stopping by anyway. 
+
+
+### Cut and Paste
+Use this as the main stub in your experimental files
 
 
         if __name__=='__main__':
@@ -17,17 +19,22 @@ Then your experiment file looks like this:
             my_experiment(**kwargs)
 
 
-This way what you do in the experiment never gets out of sync with the code. 
 
-
-### Int, Float
-Just call the experiment file 
-
-    my_function?n=int:5&d=cat&init=[float:0.2,float:0.2,float:0.2].py
-
-instead
-
-### Example 
-See [here](https://github.com/microprediction/runthis/blob/main/examples/mean_info_max_shgo%3Fn%3D5%26d%3Dcat%26init%3D%5B0.2%2C0.2%2C0.2%5D.py)
+See [example](https://github.com/microprediction/runthis/blob/main/examples/mean_info_max_shgo%3Fn%3D5%26d%3Dcat%26init%3D%5B0.2%2C0.2%2C0.2%5D.py)
 
 ![](https://github.com/microprediction/runthis/blob/main/images/run_this.png)
+
+
+New experiment? Make a copy of the file and edit the name *only*. 
+
+
+### Int, Float arguments
+Just call the experiment file 
+
+       my_function?n=int:5&d=cat&init=[float:0.2,float:0.2,float:0.2].py
+
+
+
+
+### Example 
+
