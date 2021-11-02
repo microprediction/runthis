@@ -9,9 +9,8 @@ Trivial utility to help you arrange experiments like this:
 Don't want to do that? Thanks for stopping by anyway. 
 
 
-### Cut and Paste
-Use this as the main stub in your experimental files
-
+### Never edit script contents
+Instead, infer from the file names:
 
         if __name__=='__main__':
             import os
