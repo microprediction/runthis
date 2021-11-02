@@ -28,13 +28,9 @@ See [example](https://github.com/microprediction/runthis/blob/main/examples/mean
 New experiment? Make a copy of the file and edit the name *only*. 
 
 
-### Int, Float arguments
+### Int, float arguments
 Just call the experiment file 
 
        my_function?n=int:5&d=cat&init=[float:0.2,float:0.2,float:0.2].py
 
-
-
-
-### Example 
 
