@@ -32,4 +32,4 @@ Just call the experiment file
 
        my_function?n=int:5&d=cat&init=[float:0.2,float:0.2,float:0.2].py
 
-
+There's a short [blog post](https://microprediction.medium.com/run-this-4c8ec95aae3f) here but I think you've got the gist.  
